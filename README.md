@@ -83,10 +83,6 @@ python test.py --loaddirec "./saved_model_path/model_name.pth" --val_dataset "te
 
 
 
-### Notes:
-
-1)Note that these experiments were conducted in Nvidia Quadro 8000 with 48 GB memory. 
-2)Google Colab Code is an unofficial implementation for quick train/test. Please follow original code for proper training.
 
 ### Acknowledgement:
 
