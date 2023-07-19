@@ -4,7 +4,7 @@
 
 Pytorch code for the paper 
 ["DPC-MSGATNet: Dual-Path Chain Multi-Scale 
-Gated Axial-Transformer Network for Four-chamber View Segmentation in Fetal Echocardiography"], which is submitted to the Complex & Intelligent Systems for a Major Revision. We will update this repo when the manuscript is accepted for publication, and then the community can cite and employ our codes and datasets.
+Gated Axial-Transformer Network for Four-chamber View Segmentation in Fetal Echocardiography"], which has been accepted by Complex & Intelligent Systems.
 
 
 
