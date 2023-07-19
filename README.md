@@ -13,24 +13,24 @@ Gated Axial-Transformer Network for Four-chamber View Segmentation in Fetal Echo
 
 The code is stable using Python 3. 7. 6, Pytorch 1. 7. 1, Torchvision 0. 8. 2, CUDA 11. 0. 221, and CUDNN 8. 0. 5
 
-The DPC-MSGATNet is trained with NVIDIA Telsa V100 32G. If you want to know more detailed information about Hardware and Software, please go to our manuscript, thanks! 
+The DPC-MSGATNet is trained with NVIDIA Telsa V100 32G. If you want to know more detailed information about Hardware and Software, please go to our manuscript. Thanks! 
 
 
 ### Links for downloading the Datasets:
 
 1) MoNuSeG Dataset - <a href="https://monuseg.grand-challenge.org/Data/"> Link (Original)</a> 
 2) GLAS Dataset - <a href="https://warwick.ac.uk/fac/sci/dcs/research/tia/glascontest/"> Link (Original) </a> 
-3) Fetal US FC view dataset from the paper will be made public soon! But, we have provided several test samples and our pretrained weights of DPC-MSGATNet in the repo. 
+3) Fetal US FC view dataset from the paper will be made public soon! But, we have provided several test samples and our pre-trained weights of DPC-MSGATNet in the repo. 
 
 ### Links for downloading the Pth of DPC-MSGATNet:
 
-The pth of DPC-MSGATNet for fetal US FC view segmentation can be found at here. <a href="https://drive.google.com/file/d/1HCegUCvuTIDNuvu1kCll0jWMHgY77V2x/view?usp=share_link"> DPC-MSGATNet</a>
+The pth of DPC-MSGATNet for fetal US FC view segmentation can be found here. <a href="https://drive.google.com/file/d/1HCegUCvuTIDNuvu1kCll0jWMHgY77V2x/view?usp=share_link"> DPC-MSGATNet</a>
 
 ## Using the Code for your dataset
 
 ### Dataset Preparation
 
-Prepare the dataset in the following format for easy use of the code. The train and test folders should contain two subfolders each: img and label. Make sure the images their corresponding segmentation masks are placed under these folders and have the same name for easy correspondance. Please change the data loaders to your need if you prefer not preparing the dataset in this format.
+Prepare the dataset in the following format for easy use of the code. The train and test folders should contain two subfolders each: img and label. Make sure the images and their corresponding segmentation masks are placed under these folders and have the same name for easy correspondence. Please change the data loaders to your need if you prefer not to prepare the dataset in this format.
 
 
 
@@ -91,7 +91,13 @@ We refer to the code of <a href="https://github.com/jeya-maria-jose/Medical-Tran
 # Citation:
 
 ```bash
-The repo and paper can be cited when the manuscript is accepted for publication. We will continue to update this repository. Please stay tuned!!! 
+@article{Qiaosibo,
+  title={DPC-MSGATNet: dual-path chain multi-scale gated axial-transformer network for four-chamber view segmentation in fetal echocardiography},
+  author={Sibo Qiao and Shanchen Pang and Gang Luo and Yi Sun and Wenjing Yin and Silin Pan and Zhihan Lv},
+  journal={Complex and Intelligent Systems},
+  year={2023},
+  url={https://doi.org/10.1007/s40747-023-00968-x}
+} 
 ```
 
 Open an issue or mail me directly in case of any queries or suggestions. 
